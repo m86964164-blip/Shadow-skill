@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shadow Skill AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h1>SHADOW SKILL AI</h1>
+
+    <div>
+        <button onclick="startCam()">Start</button>
+        <button onclick="stopCam()">Stop</button>
+        <button onclick="downloadReport()">PDF Report</button>
+    </div>
+
+    <img id="video" width="700">
+
+    <h2 id="score">0%</h2>
+    <p id="feedback">---</p>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body{
+    background:#111;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+.container{
+    margin-top:20px;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    background:cyan;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+img{
+    border:3px solid cyan;
+    border-radius:10px;
+}
+
+.panel{
+    margin-top:20px;
+    font-size:20px;
+}
